@@ -10,6 +10,8 @@ Outputs:
 
 aaa
 
+**Update.** Another research with deobfuscation script: https://www.nccgroup.trust/globalassets/our-research/us/whitepapers/2016/october/optimum-routers--researching-managed-routers-.pdf
+
 # Priviledge escallation
 
 Configuration is hidden from a non priviledged user, but you can access it directly with this link:
