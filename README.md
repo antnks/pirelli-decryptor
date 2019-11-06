@@ -45,3 +45,37 @@ mtd8: 00010000 00004000 "conf_factory"
 mtd9: 00100000 00004000 "bbt"
 mtd10: 04000000 00004000 "flash"
 ```
+```
+root@localhost:/mnt/sda1# cat /proc/cpuinfo
+system type             : 96362ADVNrtk
+processor               : 0
+cpu model               : Broadcom4350 V7.0
+BogoMIPS                : 398.33
+wait instruction        : yes
+microsecond timers      : yes
+tlb_entries             : 32
+extra interrupt vector  : no
+hardware watchpoint     : no
+ASEs implemented        :
+shadow register sets    : 1
+core                    : 0
+VCED exceptions         : not available
+VCEI exceptions         : not available
+
+unaligned exceptions            : 12
+processor               : 1
+cpu model               : Broadcom4350 V7.0
+BogoMIPS                : 402.43
+wait instruction        : yes
+microsecond timers      : yes
+tlb_entries             : 32
+extra interrupt vector  : no
+hardware watchpoint     : no
+ASEs implemented        :
+shadow register sets    : 1
+core                    : 0
+VCED exceptions         : not available
+VCEI exceptions         : not available
+
+unaligned exceptions            : 12
+```
