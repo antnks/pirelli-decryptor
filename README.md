@@ -25,3 +25,8 @@ Tested on Pirelli DRG A125G ver TEO_4.2.5.0017
 # Analysis of ADB EA4201N
 
 https://github.com/digiampietro/adbtools2
+
+https://unlocka1.wordpress.com/2014/04/28/adb-full-root-access/
+
+https://www.exploit-db.com/exploits/44983
+
