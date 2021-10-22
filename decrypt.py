@@ -10,7 +10,8 @@ password = ""
 i = 0
 while i < inputlen:
 	if inputstr[i] == '&':
-		password += (inputstr[i + 1] + inputstr[i + 2]).decode("hex")
+		symb = bytes.fromhex(inputstr[i + 1] + inputstr[i + 2])
+		password += chr(ord(symb))
 		i += 3
 	else:
 		password += inputstr[i]
@@ -26,5 +27,5 @@ for c in password:
 	res += chr(diff)
 	i += 1
 
-print res
+print (res)
 
