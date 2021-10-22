@@ -22,60 +22,7 @@ Search for `(admin` to find list of users. User with ID 0 is root, decrypt the p
 
 Tested on Pirelli DRG A125G ver TEO_4.2.5.0017	
 
-# Analysis of ADB EA4201N
+# Teo/Telia leaked admin
 
-https://github.com/digiampietro/adbtools2
-
-https://unlocka1.wordpress.com/2014/04/28/adb-full-root-access/
-
-https://www.exploit-db.com/exploits/44983
-
-```
-root@localhost:~# cat /proc/mtd
-dev:    size   erasesize  name
-mtd0: 00004000 00004000 "CFE"
-mtd1: 00200000 00004000 "bootfs_1"
-mtd2: 01cd0000 00004000 "rootfs_1"
-mtd3: 00200000 00004000 "bootfs_2"
-mtd4: 01cd0000 00004000 "rootfs_2"
-mtd5: 01ed0000 00004000 "upgrade"
-mtd6: 00010000 00004000 "conf_old_main"
-mtd7: 00020000 00004000 "conf_fs"
-mtd8: 00010000 00004000 "conf_factory"
-mtd9: 00100000 00004000 "bbt"
-mtd10: 04000000 00004000 "flash"
-```
-```
-root@localhost:/mnt/sda1# cat /proc/cpuinfo
-system type             : 96362ADVNrtk
-processor               : 0
-cpu model               : Broadcom4350 V7.0
-BogoMIPS                : 398.33
-wait instruction        : yes
-microsecond timers      : yes
-tlb_entries             : 32
-extra interrupt vector  : no
-hardware watchpoint     : no
-ASEs implemented        :
-shadow register sets    : 1
-core                    : 0
-VCED exceptions         : not available
-VCEI exceptions         : not available
-
-unaligned exceptions            : 12
-processor               : 1
-cpu model               : Broadcom4350 V7.0
-BogoMIPS                : 402.43
-wait instruction        : yes
-microsecond timers      : yes
-tlb_entries             : 32
-extra interrupt vector  : no
-hardware watchpoint     : no
-ASEs implemented        :
-shadow register sets    : 1
-core                    : 0
-VCED exceptions         : not available
-VCEI exceptions         : not available
-
-unaligned exceptions            : 12
-```
+* User: `lt_pdpd`
+* Pass: `un7146`
